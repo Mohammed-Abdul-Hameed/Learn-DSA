@@ -31,13 +31,12 @@ It is a static data structure with fixed size.
 
 # Subarrays, Subsequences, and Subsets in Array
 
+### Subarrays
 
-### Subarrays:
-
-- **Definition**: 
+- **Definition**
   - A subarray is a contiguous sequence of elements within an array.
 
-- **Key Points**:
+- **Key Points**
   - Retains the order of elements from the original array.
   - The length of a subarray can vary from zero (empty subarray) to the length of the original array.
   - Subarrays are continuous segments of the original array.
@@ -46,7 +45,7 @@ It is a static data structure with fixed size.
   - Original array: [1, 2, 3, 4]
   - Subarrays: [1], [2], [3], [4], [1, 2], [2, 3], [3, 4], [1, 2, 3], [2, 3, 4], [1, 2, 3, 4]
 
-### Subsequences:
+### Subsequences
 
 - **Definition**:
   - A subsequence is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements.
@@ -60,7 +59,7 @@ It is a static data structure with fixed size.
   - Original array: [1, 2, 3]
   - Subsequences: [], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]
 
-### Subsets:
+### Subsets
 
 - **Definition**:
   - A subset is a collection of elements selected from the original array, where the order doesn't matter.
@@ -73,4 +72,3 @@ It is a static data structure with fixed size.
 - **Example**:
   - Original array: [1, 2, 3]
   - Subsets: [], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]
-
