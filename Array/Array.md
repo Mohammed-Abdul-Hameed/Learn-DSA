@@ -1,42 +1,41 @@
 # Array
 
-An array is a linear Data Structure that stores the data of similar types.
-It is a static data structure with fixed size.
+An array is a linear data structure that stores data of similar types. It is a static data structure with a fixed size.
 
-## Types of Array operations -
+## Types of Array Operations
 
 - **Traversal**: Traverse through the elements of an array.
 - **Insertion**: Inserting a new element in an array.
-- **Deletion**: Deleting element from the array.
-- **Searching**: Search for an element in the array.
+- **Deletion**: Deleting an element from the array.
+- **Searching**: Searching for an element in the array.
 - **Sorting**: Maintaining the order of elements in the array.
 
 ## Advantages of Arrays
 
 1. Accessing elements is faster.
-2. Better Cache.
-3. Data of the same type is stored.
+2. Better cache performance.
+3. Data of the same type is stored consecutively in memory.
 
-## Disadvantages of Array
+## Disadvantages of Arrays
 
-1. Fixed memory size; memory can't be increased once allocated.
+1. Fixed memory size; memory cannot be increased once allocated.
 2. It cannot store values of different data types.
-3. Deletion and Insertion are very difficult to implement.
+3. Deletion and insertion operations are expensive.
 
 ## Applications of Arrays
 
-1. Database records are usually implemented as Arrays.
-2. Used in sorting algorithms.
+1. Database records are usually implemented as arrays.
+2. Used in various sorting algorithms.
 3. Many more.
 
-# Subarrays, Subsequences, and Subsets in Array
+## Subarrays, Subsequences, and Subsets in Array
 
 ### Subarrays
 
-- **Definition**
+- **Definition**:
   - A subarray is a contiguous sequence of elements within an array.
 
-- **Key Points**
+- **Key Points**:
   - Retains the order of elements from the original array.
   - The length of a subarray can vary from zero (empty subarray) to the length of the original array.
   - Subarrays are continuous segments of the original array.
