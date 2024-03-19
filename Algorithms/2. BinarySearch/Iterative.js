@@ -1,4 +1,4 @@
-function binarySearch(arr, target) {
+function binarySearchIterative(arr, target) {
   let start = 0;
   let end = arr.length - 1;
 
@@ -20,7 +20,7 @@ function binarySearch(arr, target) {
 // Example usage:
 const sortedArray = [1, 3, 5, 7, 9, 11, 13, 15];
 const targetValue = 9;
-const index = binarySearch(sortedArray, targetValue);
+const index = binarySearchIterative(sortedArray, targetValue);
 if (index !== -1) {
   console.log(`The target value ${targetValue} is found at index ${index}.`);
 } else {
