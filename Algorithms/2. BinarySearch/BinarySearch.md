@@ -34,3 +34,10 @@ If it is, you have found the target value and can return its index.
 
 1. The array should be sorted.
 2. Is less effecient for smaller arrays.
+
+## Refernces
+
+1. [Binary Search HackerRank](https://www.youtube.com/watch?v=P3YID7liBug&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=30)
+
+2. [GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/?ref=next_article)
+3. [Visualize Algorithm](https://algorithm-visualizer.org/branch-and-bound/binary-search)
