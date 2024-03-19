@@ -1,32 +1,28 @@
-function binarySearch(arr, x) {
-  let l = 0;
-  let r = arr.length - 1;
-  let mid;
-  while (r >= l) {
-    mid = l + Math.floor((r - l) / 2);
+function binarySearch(arr, target) {
+  let start = 0;
+  let end = arr.length - 1;
 
-    // If the element is present at the middle
-    // itself
-    if (arr[mid] == x) return mid;
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
 
-    // If element is smaller than mid, then
-    // it can only be present in left subarray
-    if (arr[mid] > x) r = mid - 1;
-    // Else the element can only be present
-    // in right subarray
-    else l = mid + 1;
+    if (arr[mid] === target) {
+      return mid; // Target found, return index
+    } else if (arr[mid] < target) {
+      start = mid + 1; // Search in the right half
+    } else {
+      end = mid - 1; // Search in the left half
+    }
   }
 
-  // We reach here when element is not
-  // present in array
-  return -1;
+  return -1; // Target not found
 }
 
-arr = new Array(2, 3, 4, 10, 40);
-x = 10;
-n = arr.length;
-result = binarySearch(arr, x);
-
-result == -1
-  ? console.log("Element is not present in array")
-  : console.log("Element is present at index " + result);
+// Example usage:
+const sortedArray = [1, 3, 5, 7, 9, 11, 13, 15];
+const targetValue = 9;
+const index = binarySearch(sortedArray, targetValue);
+if (index !== -1) {
+  console.log(`The target value ${targetValue} is found at index ${index}.`);
+} else {
+  console.log(`The target value ${targetValue} is not found in the array.`);
+}
