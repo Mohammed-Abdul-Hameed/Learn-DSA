@@ -5,30 +5,28 @@ An algorithm is a well-defined sequential computational technique that accepts a
 ## Why Algorithms
 
 1. Effeciency - Can perform tasks quickly and accurately
-   
 2. Consistency - Algorithms are repeatable and produce consistent results every time they are executed.
-   
 3. Scalability - Algorithms can be scaled up to handle large datasets or complex problems, which makes them useful for applications that require processing large volumes of data.
 
 ## Types of Algorithms
 
 1. Sorting
 
-Sorting contains algorithms like *Bubble sort*, *Insertion sort*, *Selection sort*, *Merge sort*, *Quick sort*. Each of these algorithms have different time complexities, making them useable for certain use cases
+Sorting contains algorithms like _Bubble sort_, _Insertion sort_, _Selection sort_, _Merge sort_, _Quick sort_. Each of these algorithms have different time complexities, making them useable for certain use cases
 
 2. Searching
 
 Searching algorithms are algorithms that search for a particular element or value in a data structure
 
-Searching contains algorithms like *Linear search*, *Binary search*, *Jump search*, *Interpolation search*, *Hash Table search*.
+Searching contains algorithms like _Linear search_, _Binary search_, _Jump search_, _Interpolation search_, _Hash Table search_.
 
 Each of these algorithms have different time complexities, making them useable for certain use cases
 
-3. Graph 
+3. Graph
 
-These algorithms are used to find the shortest path, Graphs are mathematical structures used to model relationships between objects, where the objects are represented as vertices (or nodes) and the relationships between them are represented as edges. 
+These algorithms are used to find the shortest path, Graphs are mathematical structures used to model relationships between objects, where the objects are represented as vertices (or nodes) and the relationships between them are represented as edges.
 
-Some of the common graph algorithms are *Shortest Path algorithms (e.g. Dijkstra’s, Bellman-Ford, A*)*, *Minimum Spanning Tree algorithms (e.g. Kruskal, Prim)*, *Maximum Flow algorithms (e.g. Ford-Fulkerson, Edmonds-Karp)*, *Network Flow algorithms (e.g. Bipartite Matching)*, *Connectivity algorithms (e.g. Depth-first Search, Breadth-first Search)*.
+Some of the common graph algorithms are _Shortest Path algorithms (e.g. Dijkstra’s, Bellman-Ford, A_), _Minimum Spanning Tree algorithms (e.g. Kruskal, Prim)_, _Maximum Flow algorithms (e.g. Ford-Fulkerson, Edmonds-Karp)_, _Network Flow algorithms (e.g. Bipartite Matching)_, _Connectivity algorithms (e.g. Depth-first Search, Breadth-first Search)_.
 
 ## Complexity of an Algorithm
 
@@ -70,4 +68,4 @@ Complexity of an algorithm is referred to as the time and memory required to sol
 - Worst-case complexity provides a guaranteed upper bound on the algorithm's performance.
 - Analyzing the worst-case scenario is crucial for ensuring that the algorithm performs acceptably under all possible inputs.
 - It helps in identifying potential bottlenecks or inefficiencies in the algorithm's design.
-- Worst-case analysis is widely used in algorithmic studies and real-world applications to ensure reliability and predictability.
+- Worst-case analysis is widely used in algorithmic studies and real-world applications to ensure reliability and predictability. 
